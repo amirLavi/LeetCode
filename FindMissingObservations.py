@@ -1,4 +1,4 @@
-https://leetcode.com/problems/find-missing-observations/description/
+# https://leetcode.com/problems/find-missing-observations/description/
 def missingRolls(self, rolls: List[int], mean: int, n: int) -> List[int]:
     mean_remainder = (mean * (len(rolls) + n)) - sum(rolls)
     res = []
